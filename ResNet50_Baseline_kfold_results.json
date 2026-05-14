@@ -1,0 +1,311 @@
+{
+  "model": "ResNet50_Baseline",
+  "k_folds": 5,
+  "mean_accuracy": 0.9576642335766424,
+  "std_accuracy": 0.011678832116788355,
+  "per_fold_accuracies": [
+    0.948905109489051,
+    0.9708029197080292,
+    0.9708029197080292,
+    0.9562043795620438,
+    0.9416058394160584
+  ],
+  "fold_details": [
+    {
+      "fold": 1,
+      "best_val_accuracy": 0.948905109489051,
+      "final_metrics": {
+        "accuracy": 0.9197080291970803,
+        "per_class": {
+          "adenocarcinoma": {
+            "precision": 0.8723404255319149,
+            "recall": 0.9318181818181818,
+            "f1": 0.9010989010989011,
+            "support": "44"
+          },
+          "large.cell.carcinoma": {
+            "precision": 0.8928571428571429,
+            "recall": 0.9259259259259259,
+            "f1": 0.9090909090909091,
+            "support": "27"
+          },
+          "normal": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1": 1.0,
+            "support": "32"
+          },
+          "squamous.cell.carcinoma": {
+            "precision": 0.9333333333333333,
+            "recall": 0.8235294117647058,
+            "f1": 0.875,
+            "support": "34"
+          }
+        },
+        "confusion_matrix": [
+          [
+            41,
+            1,
+            0,
+            2
+          ],
+          [
+            2,
+            25,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            32,
+            0
+          ],
+          [
+            4,
+            2,
+            0,
+            28
+          ]
+        ]
+      }
+    },
+    {
+      "fold": 2,
+      "best_val_accuracy": 0.9708029197080292,
+      "final_metrics": {
+        "accuracy": 0.9635036496350365,
+        "per_class": {
+          "adenocarcinoma": {
+            "precision": 0.9545454545454546,
+            "recall": 0.9545454545454546,
+            "f1": 0.9545454545454546,
+            "support": "44"
+          },
+          "large.cell.carcinoma": {
+            "precision": 0.9629629629629629,
+            "recall": 0.9629629629629629,
+            "f1": 0.9629629629629629,
+            "support": "27"
+          },
+          "normal": {
+            "precision": 1.0,
+            "recall": 0.96875,
+            "f1": 0.9841269841269841,
+            "support": "32"
+          },
+          "squamous.cell.carcinoma": {
+            "precision": 0.9428571428571428,
+            "recall": 0.9705882352941176,
+            "f1": 0.9565217391304348,
+            "support": "34"
+          }
+        },
+        "confusion_matrix": [
+          [
+            42,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            26,
+            0,
+            1
+          ],
+          [
+            1,
+            0,
+            31,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            33
+          ]
+        ]
+      }
+    },
+    {
+      "fold": 3,
+      "best_val_accuracy": 0.9708029197080292,
+      "final_metrics": {
+        "accuracy": 0.9416058394160584,
+        "per_class": {
+          "adenocarcinoma": {
+            "precision": 0.9523809523809523,
+            "recall": 0.9090909090909091,
+            "f1": 0.9302325581395349,
+            "support": "44"
+          },
+          "large.cell.carcinoma": {
+            "precision": 0.9285714285714286,
+            "recall": 0.9629629629629629,
+            "f1": 0.9454545454545454,
+            "support": "27"
+          },
+          "normal": {
+            "precision": 1.0,
+            "recall": 0.96875,
+            "f1": 0.9841269841269841,
+            "support": "32"
+          },
+          "squamous.cell.carcinoma": {
+            "precision": 0.8888888888888888,
+            "recall": 0.9411764705882353,
+            "f1": 0.9142857142857143,
+            "support": "34"
+          }
+        },
+        "confusion_matrix": [
+          [
+            40,
+            1,
+            0,
+            3
+          ],
+          [
+            1,
+            26,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            31,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            32
+          ]
+        ]
+      }
+    },
+    {
+      "fold": 4,
+      "best_val_accuracy": 0.9562043795620438,
+      "final_metrics": {
+        "accuracy": 0.9343065693430657,
+        "per_class": {
+          "adenocarcinoma": {
+            "precision": 0.9090909090909091,
+            "recall": 0.9302325581395349,
+            "f1": 0.9195402298850575,
+            "support": "43"
+          },
+          "large.cell.carcinoma": {
+            "precision": 0.92,
+            "recall": 0.8214285714285714,
+            "f1": 0.8679245283018868,
+            "support": "28"
+          },
+          "normal": {
+            "precision": 0.9696969696969697,
+            "recall": 1.0,
+            "f1": 0.9846153846153847,
+            "support": "32"
+          },
+          "squamous.cell.carcinoma": {
+            "precision": 0.9428571428571428,
+            "recall": 0.9705882352941176,
+            "f1": 0.9565217391304348,
+            "support": "34"
+          }
+        },
+        "confusion_matrix": [
+          [
+            40,
+            2,
+            1,
+            0
+          ],
+          [
+            3,
+            23,
+            0,
+            2
+          ],
+          [
+            0,
+            0,
+            32,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            33
+          ]
+        ]
+      }
+    },
+    {
+      "fold": 5,
+      "best_val_accuracy": 0.9416058394160584,
+      "final_metrics": {
+        "accuracy": 0.9124087591240876,
+        "per_class": {
+          "adenocarcinoma": {
+            "precision": 0.8604651162790697,
+            "recall": 0.8604651162790697,
+            "f1": 0.8604651162790697,
+            "support": "43"
+          },
+          "large.cell.carcinoma": {
+            "precision": 1.0,
+            "recall": 0.8888888888888888,
+            "f1": 0.9411764705882353,
+            "support": "27"
+          },
+          "normal": {
+            "precision": 0.9428571428571428,
+            "recall": 1.0,
+            "f1": 0.9705882352941176,
+            "support": "33"
+          },
+          "squamous.cell.carcinoma": {
+            "precision": 0.8857142857142857,
+            "recall": 0.9117647058823529,
+            "f1": 0.8985507246376812,
+            "support": "34"
+          }
+        },
+        "confusion_matrix": [
+          [
+            37,
+            0,
+            2,
+            4
+          ],
+          [
+            3,
+            24,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            33,
+            0
+          ],
+          [
+            3,
+            0,
+            0,
+            31
+          ]
+        ]
+      }
+    }
+  ],
+  "timestamp": "2026-05-09T21:46:39.888032"
+}
